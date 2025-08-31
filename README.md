@@ -21,8 +21,8 @@ pip install errorExplainer
 Just import and enable Error Explainer at the top of your Python script:
 
 ```python
-import errorExplainer
-errorExplainer.enable()
+from errorExplainer import explainer
+explainer.enable()
 
 # Now your errors will be much more helpful!
 x = 5 + "hello"  # This will show a friendly explanation
