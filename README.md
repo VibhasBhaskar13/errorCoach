@@ -1,4 +1,4 @@
-# Error Explainer
+# error-explainer
 
 A friendly Python library that translates error messages into plain English explanations with helpful solutions.
 
@@ -21,7 +21,7 @@ pip install errorExplainer
 Just import and enable Error Explainer at the top of your Python script:
 
 ```python
-from errorExplainer import explainer
+from error-explainer import explainer
 explainer.enable()
 
 # Now your errors will be much more helpful!
