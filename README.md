@@ -1,10 +1,10 @@
-# error-explainer
+# error-explcoachainer
 
 A friendly Python library that translates error messages into plain English explanations with helpful solutions.
 
 ## What it does
 
-When Python throws an error, it uses technical jargon that can be confusing for beginners. Error Explainer intercepts these error messages and provides:
+When Python throws an error, it uses technical jargon that can be confusing for beginners. Error Coach intercepts these error messages and provides:
 
 - **Simple explanations** of what went wrong
 - **Practical solutions** to fix the problem
@@ -13,16 +13,16 @@ When Python throws an error, it uses technical jargon that can be confusing for 
 ## Installation (through pip)
 
 ```bash
-pip install errorExplainer
+pip install error-coach
 ```
 
 ## Quick Start
 
-Just import and enable Error Explainer at the top of your Python script:
+Just import and enable Error Coach at the top of your Python script:
 
 ```python
-from error-explainer import explainer
-explainer.enable()
+from error-coach import coach
+coach.enable()
 
 # Now your errors will be much more helpful!
 x = 5 + "hello"  # This will show a friendly explanation
@@ -36,19 +36,19 @@ x = 5 + "hello"  # This will show a friendly explanation
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
-**After** (with Error Explainer):
+**After** (with Error Coach):
 
 ```
--------------------- Error-Explainer --------------------
+-------------------- Error-Coach --------------------
 Error: TypeError: unsupported operand type(s) for +: 'int' and 'str'
 What went wrong: You tried to add a number (int) and text (str).
 How to Fix: Convert one using int() or str().
----------------------------------------------------------
+-----------------------------------------------------
 ```
 
 ## Supported Error Types
 
-Error Explainer currently handles these common Python errors:
+Error Coach currently handles these common Python errors:
 
 ### Type Errors
 
@@ -90,7 +90,7 @@ Error Explainer currently handles these common Python errors:
 
 ## How it works
 
-Error Explainer uses Python's `sys.excepthook` to intercept exceptions before they're displayed. It matches error messages against a database of regex patterns and provides human-friendly explanations when matches are found.
+Error Coach uses Python's `sys.excepthook` to intercept exceptions before they're displayed. It matches error messages against a database of regex patterns and provides human-friendly explanations when matches are found.
 
 For unrecognized errors, it falls back to Python's default error display.
 
