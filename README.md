@@ -10,10 +10,10 @@ When Python throws an error, it uses technical jargon that can be confusing for 
 - **Practical solutions** to fix the problem
 - **Clean, readable formatting** that's easy to understand
 
-## Installation
+## Installation (through pip)
 
 ```bash
-pip install error-explainer
+pip install errorExplainer
 ```
 
 ## Quick Start
