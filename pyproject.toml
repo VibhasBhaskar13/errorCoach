@@ -3,7 +3,7 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "error-coach"
+name = "errorCoach"
 version = "0.0.1"
 authors = [{ name = "Vibhas Bhaskar", email = "vibhas.bhaskar@gmail.com" }]
 description = "A package to explain errors in Python code."
@@ -17,5 +17,5 @@ license = "MIT"
 license-files = ["LICENCSE*"]
 
 [project.urls]
-Homepage = "https://github.com/VibhasBhaskar13/errorExplainer.git"
-Issues = "https://github.com/VibhasBhaskar13/errorExplainer/issues"
+Homepage = "https://github.com/VibhasBhaskar13/errorCoach.git"
+Issues = "https://github.com/VibhasBhaskar13/errorCoach/issues"

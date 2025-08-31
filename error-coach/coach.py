@@ -144,11 +144,11 @@ def friendlyExcepthook(excType, excValue, traceback):
     msg = str(excValue)
     for pattern, (explanation, fix) in ERRORS.items():
         if re.match(pattern, f"{excType.__name__}: {msg}"):
-            print("\n" + "-"*20 + " Error-Explainer " + "-"*20)
+            print("\n" + "-"*20 + " Error-Coach " + "-"*20)
             print(f"Error: {excType.__name__}: {msg}")
             print(f"What went wrong: {explanation}")
             print(f"How to Fix: {fix}")
-            print("-"*57 + "\n")
+            print("-"*54 + "\n")
             break
     else:
         sys.__excepthook__(excType, excValue, traceback)

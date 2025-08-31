@@ -1,4 +1,4 @@
-# error-explcoachainer
+# errorCoach
 
 A friendly Python library that translates error messages into plain English explanations with helpful solutions.
 
@@ -13,7 +13,7 @@ When Python throws an error, it uses technical jargon that can be confusing for 
 ## Installation (through pip)
 
 ```bash
-pip install error-coach
+pip install errorCoach
 ```
 
 ## Quick Start
@@ -21,7 +21,7 @@ pip install error-coach
 Just import and enable Error Coach at the top of your Python script:
 
 ```python
-from error-coach import coach
+from errorCoach import coach
 coach.enable()
 
 # Now your errors will be much more helpful!
