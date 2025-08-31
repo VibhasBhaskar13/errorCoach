@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "errorExplainer"
+version = "1.0.0"
+description = "Turns Python errors into beginner-friendly explanations"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name="Vibhas Bhaskar", email="vibhas.bhaskar@gmail.com" }
+]
+license = { text="MIT" }
+dependencies = []
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: MIT License",
+]
